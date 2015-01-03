@@ -85,7 +85,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="244" y="161" width="42" height="21"/>
+                                    <rect key="frame" x="221" y="161" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-hr-MJi">
@@ -94,7 +94,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="244" y="209" width="42" height="21"/>
+                                    <rect key="frame" x="221" y="209" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 2: Mix your lemonade." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsC-Hg-MFK">
@@ -130,7 +130,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="244" y="344" width="42" height="21"/>
+                                    <rect key="frame" x="221" y="344" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ice Cubes:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKc-gs-fua">
@@ -148,7 +148,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="244" y="389" width="42" height="21"/>
+                                    <rect key="frame" x="221" y="389" width="42" height="21"/>
                                 </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 3: Start selling your brew" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYP-Uo-6wv">
@@ -179,6 +179,129 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="512" width="138" height="50"/>
                                 </variation>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1K-vu-Pal"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F4Q-PL-QcN">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.17000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.0" green="0.78039222959999999" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="172" y="157" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lemonBuyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JLP-n5-beb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtL-IL-29w">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.26000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="157" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="lemonRefundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FrP-mw-K68"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T1s-cj-Ir8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.17000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.0" green="0.78039222959999999" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="172" y="205" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="iceBuyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2w1-H9-vIJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyf-Uc-2My">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.26000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="205" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="iceRefundButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sUt-8e-ydj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmY-9a-zDH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.17000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.0" green="0.78039222959999999" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="340" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addLemonMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SJb-a2-cG9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJq-2C-YRE">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.26000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="340" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="removeLemonMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yU2-sk-NNL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lg-qi-ta8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.26000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="380" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="removeIceMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uvS-2C-LjR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXv-bg-2xi">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="0.17000000000000001" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="0.0" green="0.78039222959999999" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="380" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addIceMixButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0gq-72-dVj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -201,6 +324,14 @@
                                 <exclude reference="SYP-Uo-6wv"/>
                                 <exclude reference="Buw-tG-YJe"/>
                                 <exclude reference="Dq7-TU-CiB"/>
+                                <exclude reference="F4Q-PL-QcN"/>
+                                <exclude reference="YtL-IL-29w"/>
+                                <exclude reference="T1s-cj-Ir8"/>
+                                <exclude reference="Yyf-Uc-2My"/>
+                                <exclude reference="cmY-9a-zDH"/>
+                                <exclude reference="GJq-2C-YRE"/>
+                                <exclude reference="6lg-qi-ta8"/>
+                                <exclude reference="DXv-bg-2xi"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -222,9 +353,26 @@
                                 <include reference="SYP-Uo-6wv"/>
                                 <include reference="Buw-tG-YJe"/>
                                 <include reference="Dq7-TU-CiB"/>
+                                <include reference="F4Q-PL-QcN"/>
+                                <include reference="YtL-IL-29w"/>
+                                <include reference="T1s-cj-Ir8"/>
+                                <include reference="Yyf-Uc-2My"/>
+                                <include reference="cmY-9a-zDH"/>
+                                <include reference="GJq-2C-YRE"/>
+                                <include reference="6lg-qi-ta8"/>
+                                <include reference="DXv-bg-2xi"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="cashTotalLabel" destination="PKE-yR-nKW" id="eaZ-5r-V3t"/>
+                        <outlet property="iceInventoryLabel" destination="7tV-hh-dS5" id="7iS-Wz-V8F"/>
+                        <outlet property="iceMixLabel" destination="YCM-WW-UNZ" id="4F6-LC-luy"/>
+                        <outlet property="icePurchasedLabel" destination="Iqg-hr-MJi" id="TW6-2t-EeG"/>
+                        <outlet property="lemonInventoryLabel" destination="Kvu-57-QUl" id="MxD-fK-nvl"/>
+                        <outlet property="lemonMixLabel" destination="8s9-Tc-HHM" id="ikj-lp-9g9"/>
+                        <outlet property="lemonPurchasedLabel" destination="WlS-vt-uTT" id="lz0-lV-Tr4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
