@@ -13,6 +13,8 @@
 		848291391A58606300938CF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848291381A58606300938CF7 /* Images.xcassets */; };
 		8482913C1A58606300938CF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8482913A1A58606300938CF7 /* LaunchScreen.xib */; };
 		848291481A58606300938CF7 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848291471A58606300938CF7 /* LemonadeStandTests.swift */; };
+		848291521A58927400938CF7 /* SellLemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848291511A58927400938CF7 /* SellLemonade.swift */; };
+		848291541A5892DA00938CF7 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848291531A5892DA00938CF7 /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		848291411A58606300938CF7 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848291461A58606300938CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848291471A58606300938CF7 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		848291511A58927400938CF7 /* SellLemonade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellLemonade.swift; sourceTree = "<group>"; };
+		848291531A5892DA00938CF7 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				848291311A58606300938CF7 /* AppDelegate.swift */,
 				848291331A58606300938CF7 /* ViewController.swift */,
+				848291511A58927400938CF7 /* SellLemonade.swift */,
+				848291531A5892DA00938CF7 /* Customer.swift */,
 				848291351A58606300938CF7 /* Main.storyboard */,
 				848291381A58606300938CF7 /* Images.xcassets */,
 				8482913A1A58606300938CF7 /* LaunchScreen.xib */,
@@ -215,6 +221,8 @@
 			files = (
 				848291341A58606300938CF7 /* ViewController.swift in Sources */,
 				848291321A58606300938CF7 /* AppDelegate.swift in Sources */,
+				848291521A58927400938CF7 /* SellLemonade.swift in Sources */,
+				848291541A5892DA00938CF7 /* Customer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
