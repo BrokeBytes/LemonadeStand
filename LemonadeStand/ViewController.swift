@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var icePurchasedLabel: UILabel!
     @IBOutlet weak var lemonMixLabel: UILabel!
     @IBOutlet weak var iceMixLabel: UILabel!
+    @IBOutlet weak var dailySalesLabel: UILabel!
     
     var playerCash = 0
     var playerLemons = 0
@@ -241,7 +242,7 @@ class ViewController: UIViewController {
         var myCustomer = SellLemonade.dailyCustomers()
         println("Daily Customer \(myCustomer.count)")
         var myLemonade = SellLemonade.lemonadeType(self.lemonsInMix, ice: self.iceInMix)
-        println("My Lemonade Type is " + myLemonade)
+        println("My Lemonade Type Today was " + myLemonade)
         var myDailySales = SellLemonade.customerSales(myLemonade, dailyCustomers: myCustomer)
         println("My Daily Sales where $ \(myDailySales).00")
         self.lemonsInMix = 0
@@ -250,12 +251,13 @@ class ViewController: UIViewController {
         self.lemonsBought = 0
         
         playerCash += myDailySales
-        
+        self.dailySalesLabel.text = "My Lemonade Type Today was " + myLemonade + ". I had \(myCustomer.count) Customers and made $ \(myDailySales).00"
         self.cashTotalLabel.text = "$\(self.playerCash)"
         self.iceMixLabel.text = "\(self.iceInMix)"
         self.lemonMixLabel.text = "\(self.lemonsInMix)"
         self.lemonPurchasedLabel.text = "\(self.lemonsBought)"
-        }
+        
+    }
 
 
 }

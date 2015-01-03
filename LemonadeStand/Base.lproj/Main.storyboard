@@ -167,7 +167,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="46" y="430" width="283" height="86"/>
+                                    <rect key="frame" x="46" y="430" width="269" height="86"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dq7-TU-CiB">
@@ -366,6 +366,7 @@
                     </view>
                     <connections>
                         <outlet property="cashTotalLabel" destination="PKE-yR-nKW" id="eaZ-5r-V3t"/>
+                        <outlet property="dailySalesLabel" destination="Buw-tG-YJe" id="li9-CN-I33"/>
                         <outlet property="iceInventoryLabel" destination="7tV-hh-dS5" id="7iS-Wz-V8F"/>
                         <outlet property="iceMixLabel" destination="YCM-WW-UNZ" id="4F6-LC-luy"/>
                         <outlet property="icePurchasedLabel" destination="Iqg-hr-MJi" id="TW6-2t-EeG"/>
